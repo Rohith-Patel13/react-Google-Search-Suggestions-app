@@ -34,7 +34,9 @@ class GoogleSuggestions extends Component {
     const {searchInput} = this.state
 
     const searchResultsArray = suggestionsList.filter(eachObjectFilter =>
-      eachObjectFilter.suggestion.includes(searchInput),
+      eachObjectFilter.suggestion
+        .toLowerCase()
+        .includes(searchInput.toLowerCase()),
     )
 
     return (
