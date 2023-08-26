@@ -1,0 +1,22 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.arrowLogoImg {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  margin-left: 0px;
+}
